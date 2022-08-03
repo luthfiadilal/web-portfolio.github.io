@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #112c40;
+  position: sticky;
+}
+
+nav {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8%;
+  padding-left: 8%;
+  background-color: #112c40;
+  border-bottom: 1px;
+  position: sticky;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #43c6ac;
+  transition: 0.5s;
+}
+
+.image {
+  width: 35%;
+  height: 70%;
+  position: absolute;
+  bottom: 30px;
+  right: 18px;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+  right: 18%;
+}
+
+.object img {
+  height: 75%;
+  width: 75%;
+  position: absolute;
+  right: 40%;
+  bottom: 5%;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+}
+
+h4 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 32px;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+  margin: 20px 0 20px;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.content a {
+  font-size: 20px;
+  background-color: #43c6ac;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+
+.content a:hover {
+  background: transparent;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #112c40;
+}
+
+.about-me {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.about-text h2 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-left: 180px;
+}
+
+.about-text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+
+.hobby {
+  background-color: #112c40;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.title h2 {
+  color: white;
+  font-size: 38px;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 325px;
+  padding: 20px 35px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card img {
+  width: 75%;
+  text-align: center;
+}
+
+.card h5 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.desc p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.about-me img {
+  width: 30%;
+  float: left;
+  position: absolute;
+  left: 70%;
+}
+
+.contact-me {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #112c40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contact-text h2 {
+  color: white;
+  font-size: 38px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-box {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+}
+
+.contact-box:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.contact {
+  width: 25%;
+  padding: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  float: none;
+}
+
+.contact h4 {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.contact p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.object3 img {
+  width: 30%;
+  right: 50%;
+  position: absolute;
+}
+
+.profile {
+  background-color: #112c40;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.info-text h2 {
+  color: white;
+  font-size: 38px;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.info {
+  height: 405px;
+  width: 325px;
+  padding: 20px 35px;
+  background-color: #43c6ac;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.info h3 {
+  color: #112c40;
+  font-size: 28px;
+}
+
+table {
+  margin: 20px;
+}
+
+table tr th {
+  font-size: 20px;
+  color: #112c40;
+}
+
+table tr td {
+  font-size: 16px;
+  color: #112c40;
+}
+
+footer {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #43c6ac;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header {
+  display: inline;
+}
+
+.about-text a {
+  font-size: 20px;
+  background-color: #43c6ac;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+
+.card a {
+  font-size: 20px;
+  background-color: #43c6ac;
+  color: #112c40;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid #112c40;
+  align-items: center;
+}
+
+.contact-text a {
+  font-size: 20px;
+  background-color: #43c6ac;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid white;
+  align-items: center;
+}
+
+.info-table a {
+  font-size: 20px;
+  background-color: #112c40;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid white;
+  align-items: center;
+}
+
+.about-text a:hover {
+  background: transparent;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.card a:hover {
+  background: transparent;
+  border: 2px solid #112c40;
+  transition: 0.5s;
+}
+
+.contact-text a:hover {
+  background: transparent;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.info-table a:hover {
+  background: transparent;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 2000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
